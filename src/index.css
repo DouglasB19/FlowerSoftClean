@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 20% 98%;
+    --foreground: 150 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 10% 15%;
+
+    --primary: 152 45% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 120 15% 95%;
+    --secondary-foreground: 150 10% 15%;
+
+    --muted: 120 10% 93%;
+    --muted-foreground: 150 5% 45%;
+
+    --accent: 142 40% 92%;
+    --accent-foreground: 150 10% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 10% 90%;
+    --input: 120 10% 90%;
+    --ring: 152 45% 38%;
+
+    --radius: 0.75rem;
+
+    --whatsapp: 142 70% 45%;
+    --whatsapp-light: 142 60% 94%;
+    --whatsapp-dark: 142 70% 30%;
+    --whatsapp-bubble: 142 40% 88%;
+
+    --flower-soft: 340 30% 92%;
+    --flower-accent: 340 40% 65%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 150 10% 8%;
+    --foreground: 120 15% 95%;
+
+    --card: 150 10% 12%;
+    --card-foreground: 120 15% 95%;
+
+    --popover: 150 10% 12%;
+    --popover-foreground: 120 15% 95%;
+
+    --primary: 152 45% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 150 10% 18%;
+    --secondary-foreground: 120 15% 95%;
+
+    --muted: 150 10% 18%;
+    --muted-foreground: 120 10% 65%;
+
+    --accent: 150 10% 18%;
+    --accent-foreground: 120 15% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 10% 20%;
+    --input: 150 10% 20%;
+    --ring: 152 45% 45%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+}
