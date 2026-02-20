@@ -45,14 +45,14 @@ const CTASection = () => {
                 <Clock className="h-5 w-5 text-primary" />
               </div>
               <p className="text-sm font-semibold text-foreground">Horário</p>
-              <p className="text-xs text-muted-foreground">Seg a Sáb, 8h às 18h</p>
+              <p className="text-xs text-muted-foreground">Agenda 100% flexível — você escolhe o dia e a hora.</p>
             </div>
             <div className="flex flex-col items-center gap-2 p-4">
               <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
                 <MapPin className="h-5 w-5 text-primary" />
               </div>
               <p className="text-sm font-semibold text-foreground">Região</p>
-              <p className="text-xs text-muted-foreground">São Paulo e região metropolitana</p>
+              <p className="text-xs text-muted-foreground">Levamos nosso serviço até você em São Paulo e arredores.</p>
             </div>
             <div className="flex flex-col items-center gap-2 p-4">
               <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
